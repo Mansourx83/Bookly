@@ -15,7 +15,7 @@ class AnimatedTextKits extends StatelessWidget {
           textAlign: TextAlign.center,
           style: const TextStyle(
             color: Colors.white,
-            fontSize: 15,
+            fontSize: 13,
             fontWeight: FontWeight.bold,
             shadows: [
               Shadow(
