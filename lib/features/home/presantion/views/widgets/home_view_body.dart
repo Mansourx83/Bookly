@@ -1,4 +1,6 @@
+import 'package:bookly/core/utils/assets.dart';
 import 'package:bookly/features/home/presantion/views/widgets/custom_app_bar.dart';
+import 'package:bookly/features/home/presantion/views/widgets/custom_image.dart';
 import 'package:flutter/material.dart';
 
 class HomeViewBody extends StatelessWidget {
@@ -9,6 +11,7 @@ class HomeViewBody extends StatelessWidget {
     return Column(
       children: [
         CustomAppBar(),
+        CustomImage(),
       ],
     );
   }
